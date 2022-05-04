@@ -1,0 +1,49 @@
+#speed1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#volume1{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#play1{
+    margin-top: 20px;
+}
+
+.t4{
+border-radius: 10%;
+}
+
+body{
+    background-position: center;
+    
+    background-size:contain;
+}
+
+canvas{
+background-color: white;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 170px;
+    border: 0px ;
+
+    
+}
+
+@keyframes example1{
+    from{box-shadow:  4px 4px 35px yellow;}
+    to{box-shadow:  4px 4px 35px green;}
+}
+
+#rrr{
+    width: 100%;
+}
+
+span{
+    color: white;
+}
